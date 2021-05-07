@@ -28,7 +28,6 @@ body{
 header{
     justify-content: flex-end;
     align-items: flex-start;
-    background-color: black;
     height: 50px;
 }
 
