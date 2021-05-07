@@ -85,7 +85,6 @@ footer{
     height: 100%;
     display: flex;
     flex-grow: 1;
-    background-color: green;
 }
 
 .col:first-child{
@@ -93,8 +92,8 @@ footer{
 }
 
 .col.center{
+    justify-content: center;
     flex-grow: 2;
-    background-color: blue;
 }
 
 .col:last-child{
@@ -115,10 +114,13 @@ footer{
 }
 
 .item .cmd i{
-    font-size: 40px;
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
-
+.item .cmd.share i{
+    color: chartreuse;
+}
 
 footer .col:last-child .btn{
     background-color: rgba(255,255,255,0.5);
